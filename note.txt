@@ -1,0 +1,32 @@
+At first I just created a next.js project named "assignment-next" opening my terminal and I commanded " npx create-next-app " and then I just followed the required rules.  
+
+Folder Structure Description:
+
+Once I created the Next.js project, it will have a default folder structure like this:
+
+Screenshot link : https://prnt.sc/HF9yqGO9ZueF (I just took a screenshot of my code editor of the files.Please follow the screenshot)
+
+Now let's go through the main folders and files:
+
+* public/: This folder contains static assets that will be accessible directly from the root URL of my application. For example, images, icons, and fonts can be placed here.
+
+* src/: This is the main source code directory for your application.
+  *favicon.ico : It contains the favicon of the next.js 
+  *globals.css :  file is a good place to put global styles, and CSS Modules can be used to define component-specific styles.
+  *layout.js : It contains the whole project root layout .
+  *page.js : This is where my  application's pages are defined. Each .js or .jsx file in this folder becomes a route in my  application. 
+
+* .eslintrc: This is the configuration file for ESLint, which helps you maintain consistent code quality and style across the project.
+
+* jsconfig : This file is used to configure the behavior of the JavaScript language service in  development environment. This file provides a way to specify project-wide settings for  JavaScript codebase, allowing for better code navigation, autocompletion, and type checking.
+
+
+* next.config.js: This file allows us  to configure various aspects of  Next.js project, such as adding custom webpack configurations or setting up environment variables.
+
+* package.json: This file contains metadata about my project and its dependencies. We can also define scripts for running tasks like starting the development server or building the production version of the app.
+
+* tailwind.config.js : This file contains the tailwindcss utilities . 
+
+Thank you
+Fahimur Rahman
+  
